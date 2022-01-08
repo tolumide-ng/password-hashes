@@ -16,7 +16,7 @@ readme = "README.md"
 
 [dependencies]
 base64ct = "1"
-blake2 = { version = "0.10", default-features = false }
+blake2 = { version = "=0.10.0", default-features = false }
 
 # optional dependencies
 password-hash = { version = "0.3", optional = true }
